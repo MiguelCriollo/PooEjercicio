@@ -1,3 +1,5 @@
+let parrafo = document.getElementById("parrafito");
+
 function Punto(num1,num2) {
     this.num1=num1;
     this.num2=num2;
@@ -18,3 +20,4 @@ let p1 = new Punto(1,2);
 let p2 = new Punto(2,3);
 
 console.log(p1.suma(p2).toString());
+parrafo.textContent=p1.suma(p2).toString();
